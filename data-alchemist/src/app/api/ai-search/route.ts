@@ -50,12 +50,11 @@ export async function POST(req: NextRequest) {
       if (match) {
         results = JSON.parse(match[0]);
       } else {
-        results = { error: 'Failed to extract JSON from model output', rawResponse: text };
+        return NextResponse.json({ error: 'Failed to extract JSON from model output', rawResponse: text }, { status: 500 });
       }
     } catch (e) {
-      results = { error: 'Failed to parse OpenAI response', rawResponse: data.choices?.[0]?.message?.content };
+      return NextResponse.json({ error: 'Failed to parse OpenAI response', rawResponse: data.choices?.[0]?.message?.content }, { status: 500 });
     }
-
     return NextResponse.json(results);
   } catch (error) {
     return NextResponse.json({ 
