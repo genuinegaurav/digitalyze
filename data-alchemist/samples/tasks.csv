@@ -1,0 +1,51 @@
+TaskID,TaskName,Category,Duration,RequiredSkills,PreferredPhases,MaxConcurrent
+T1,Data Cleanup,Data,2,"Excel,Python","[1,2]",2
+T2,Client Meeting,Management,1,"Project Management,Excel","[2,3]",1
+T3,Security Audit,Security,3,"Security,Investigation","[1,3]",1
+T4,Market Research,Research,2,"Research,Excel","[2,4]",2
+T5,Financial Analysis,Finance,2,"Finance,Excel","[3,4]",2
+T6,Product Design,Design,1,"Design,AI","[1,2]",1
+T7,AI Model Training,AI,4,"AI,Python","[2,3,4]",2
+T8,Legal Review,Law,2,"Law,Negotiation","[3,5]",1
+T9,Content Writing,Writing,1,"Writing,Editing","[1,2]",1
+T10,Project Planning,Management,2,"Project Management,Excel","[2,3]",2
+T11,Logistics Coordination,Logistics,2,"Logistics,Support","[1,3]",1
+T12,Support Ticketing,Support,1,"Support,Excel","[2,4]",1
+T13,Strategy Session,Strategy,2,"Strategy,Management","[3,4]",2
+T14,Branding Workshop,Design,1,"Design,Research","[1,2]",1
+T15,Data Entry,Data,1,"Excel","[2,3]",1
+T16,Team Training,Management,2,"Management,Leadership","[1,4]",2
+T17,Prototype Build,Engineering,3,"Engineering,AI","[2,5]",2
+T18,User Testing,Research,2,"Research,Design","[3,4]",1
+T19,Press Release,Writing,1,"Writing,Editing","[1,2]",1
+T20,Compliance Check,Law,2,"Law,Admin","[2,5]",1
+T21,VIP Support,Support,1,"Support,VIP","[1,3]",1
+T22,Regional Meeting,Management,2,"Management,Project Management","[2,4]",2
+T23,Data Migration,Data,3,"Excel,Python","[1,2,3]",2
+T24,Incident Response,Security,2,"Security,Investigation","[3,5]",1
+T25,Market Analysis,Finance,2,"Finance,Research","[2,4]",2
+T26,UX Review,Design,1,"Design,Research","[1,2]",1
+T27,Server Maintenance,Engineering,2,"Engineering,Support","[2,5]",1
+T28,Client Onboarding,Management,1,"Project Management,Admin","[2,3]",1
+T29,Sales Pitch,Sales,1,"Negotiation,Management","[1,4]",1
+T30,Product Launch,Management,2,"Management,Project Management","[2,4]",2
+T31,Data Visualization,Data,2,"Excel,Python","[1,2]",2
+T32,Contract Review,Law,1,"Law,Negotiation","[3,5]",1
+T33,Data Backup,Data,1,"Excel,Support","[2,3]",1
+T34,Customer Survey,Research,1,"Research,Excel","[2,4]",1
+T35,Board Meeting,Management,2,"Management,Leadership","[1,4]",2
+T36,Performance Review,Management,1,"Management,Admin","[2,3]",1
+T37,Inventory Check,Logistics,2,"Logistics,Support","[1,3]",1
+T38,Social Media,Marketing,1,"Marketing,Writing","[2,4]",1
+T39,Budget Planning,Finance,2,"Finance,Excel","[3,4]",2
+T40,AI Demo,AI,1,"AI,Python","[2,3]",1
+T41,Data Security,Security,2,"Security,AI","[1,3]",1
+T42,Internal Audit,Finance,2,"Finance,Admin","[2,5]",1
+T43,Team Offsite,Management,1,"Management,Leadership","[1,4]",1
+T44,Newsletter,Writing,1,"Writing,Editing","[1,2]",1
+T45,Vendor Meeting,Management,2,"Management,Negotiation","[2,3]",2
+T46,Patent Filing,Law,2,"Law,Research","[3,5]",1
+T47,Incident Drill,Security,1,"Security,Investigation","[1,3]",1
+T48,App Testing,Engineering,2,"Engineering,Support","[2,5]",1
+T49,Data Sync,Data,1,"Excel,Python","[1,2]",1
+T50,Sales Training,Sales,2,"Sales,Management","[2,4]",2 
